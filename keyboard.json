@@ -1,0 +1,35 @@
+{
+    "keyboard_name": "Auralis",
+    "manufacturer": "George",
+    "url": "",
+    "maintainer": "George",
+    "usb": {
+        "vid": "0xE0E0",
+        "pid": "0x0030",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["B5", "D4"],
+        "rows": ["D1", "D7"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+				{"matrix": [1, 1], "x": 1, "y": 1}
+            ]
+        }
+    }
+}
